@@ -3,7 +3,8 @@
 -- Add any additional keymap here
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
-
+-- escape
+keymap.set("i", "jj", "<Esc>", opts)
 -- increment/decrement
 -- keymap.set("n", "+", "<C-a>")
 -- keymap.set("n", "-", "<C-x>")
